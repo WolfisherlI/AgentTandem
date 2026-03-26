@@ -5,7 +5,7 @@ LLM Agent as a Service — local Kubernetes + ArgoCD GitOps pattern.
 ## Stack
 
 | Tool | Role |
-|------|------|
+| ------ | ------ |
 | `kind` | Local Kubernetes cluster (runs inside Docker) |
 | `ArgoCD` | GitOps sync engine — watches Git, deploys manifests |
 | `Kubernetes Job` | Ephemeral agent runner with auto-cleanup |
@@ -13,7 +13,7 @@ LLM Agent as a Service — local Kubernetes + ArgoCD GitOps pattern.
 
 ## Project Structure
 
-```
+```text
 AgentTandem/
 ├── agent/
 │   ├── main.py           # LLM agent logic
